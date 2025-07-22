@@ -139,8 +139,8 @@ const SignUpPage = () => {
       </div>
       {/* right side */}
       <AuthImagePattern
-        title="Join our community"
-        subtitle="Connect with friends, share moments, and stay in touch with your loved ones."
+        title="Join our WPS Secret Chat!"
+        subtitle="Connect with friends, share moments, and stay with RB6 DOGGY GAME!"
       />
     </div>
   );
