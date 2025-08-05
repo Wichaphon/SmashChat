@@ -32,6 +32,10 @@ export const useChatStore = create((set) => ({
         } finally {
             set({ isMessagesLoading : false });
         }
-    }
+    },
+
+
+    // todo optimize later
+    setSelectedUser: (selectedUser) => set({ selectedUser }),
 }))
 
