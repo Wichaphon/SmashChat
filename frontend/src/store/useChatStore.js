@@ -71,8 +71,6 @@ export const useChatStore = create((set, get) => ({
       socket.off("newMessage");
     },
 
-
-    // todo optimize later
     setSelectedUser: (selectedUser) => set({ selectedUser }),
 }))
 
